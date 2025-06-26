@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VividPlay - Social Experience Playground</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/992/992700.png">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.css">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#1e3a8a',
+            secondary: '#0e7490',
+            accent: '#fbbf24',
+            bg: '#f1f5f9'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-bg text-primary">
+
+  <!-- Header -->
+  <header class="bg-primary sticky top-0 z-50 shadow-lg">
+    <div class="w-full bg-black text-white text-xs py-1 text-center flex justify-center items-center gap-4">
+      <div class="font-bold">18+ ONLY</div>
+      <a href="https://www.begambleaware.org/" target="_blank" rel="noopener" class="text-accent hover:underline">
+        BeGambleAware.org
+      </a>
+      <div>Play Responsibly</div>
+    </div>
+    <nav class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <a href="#" class="flex items-center">
+        <div class="w-12 h-12 rounded-full flex items-center justify-center text-2xl font-bold text-white shadow-lg bg-accent">
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <span class="ml-3 text-2xl font-bold text-white">Vivid<span class="text-accent">Play</span></span>
+      </a>
+      <div class="flex items-center space-x-4">
+        <a href="#whyus" class="text-white font-bold hover:text-accent transition">Why Us?</a>
+        <a href="#games" class="text-white font-bold hover:text-accent transition">Experiences</a>
+        <a href="#disclaimer" class="text-white font-bold hover:text-accent transition">Disclaimer</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pt-20 pb-16 bg-gradient-to-br from-primary to-secondary text-center">
+    <div class="container mx-auto px-4 flex flex-col items-center">
+      <h1 class="text-5xl md:text-7xl font-bold mb-6 text-white drop-shadow-lg">
+        Welcome to <span class="text-accent">VividPlay</span>
+      </h1>
+      <p class="text-xl md:text-2xl mb-10 opacity-90 max-w-2xl mx-auto text-white">
+        Dive into a world of vibrant, interactive experiences. No risk, no registration, just play and enjoy!
+      </p>
+      <a href="#games" class="bg-accent text-primary font-bold py-4 px-8 rounded-full text-xl shadow-lg hover:bg-yellow-400 transition transform hover:-translate-y-1 cursor-pointer">
+        Start Exploring <i class="ml-2 fas fa-play"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Why Us Section -->
+  <section id="whyus" class="py-16 bg-bg">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold text-secondary mb-4">Why VividPlay?</h2>
+        <div class="w-24 h-1 bg-gradient-to-r from-accent to-primary mx-auto rounded-full"></div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl p-8 text-center shadow-lg hover:shadow-xl transition">
+          <div class="w-20 h-20 rounded-full bg-gradient-to-br from-accent/20 to-accent/60 flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-face-grin-stars text-4xl text-accent"></i>
+          </div>
+          <h3 class="text-2xl font-bold text-secondary mb-4">Pure Enjoyment</h3>
+          <p class="text-gray-600">Discover a variety of interactive experiences designed for fun and relaxation.</p>
+        </div>
+        <div class="bg-white rounded-xl p-8 text-center shadow-lg hover:shadow-xl transition">
+          <div class="w-20 h-20 rounded-full bg-gradient-to-br from-accent/20 to-accent/60 flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-hand-holding-heart text-4xl text-accent"></i>
+          </div>
+          <h3 class="text-2xl font-bold text-secondary mb-4">No Pressure</h3>
+          <p class="text-gray-600">No sign up, no payment, no stress. Just play at your own pace, anytime.</p>
+        </div>
+        <div class="bg-white rounded-xl p-8 text-center shadow-lg hover:shadow-xl transition">
+          <div class="w-20 h-20 rounded-full bg-gradient-to-br from-accent/20 to-accent/60 flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-sparkles text-4xl text-accent"></i>
+          </div>
+          <h3 class="text-2xl font-bold text-secondary mb-4">Always Fresh</h3>
+          <p class="text-gray-600">New experiences and surprises await each time you visit VividPlay.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Games Section -->
+  <section id="games" class="py-24 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold mb-4 text-primary">Explore Our Experiences</h2>
+        <p class="text-xl opacity-80 max-w-2xl mx-auto">Jump into interactive fun instantly. No downloads, no registration, just click and play!</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <!-- Game 1: Gemhalla -->
+        <div class="bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl shadow-lg p-8 flex flex-col items-center">
+          <div class="text-5xl mb-4">🌈</div>
+          <h3 class="text-2xl font-bold mb-2">Gemhalla Adventure</h3>
+          <p class="mb-4 text-gray-600">A colorful journey through sparkling gems and surprises.</p>
+          <button onclick="openIframeGame('https://bgaming-network.com/play/Gemhalla/FUN?server=demo')" class="bg-accent text-primary font-bold py-2 px-6 rounded-full shadow hover:bg-yellow-400 transition">Play Now</button>
+        </div>
+
+        <!-- Game 2: Mustang Gold 2 -->
+        <div class="bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl shadow-lg p-8 flex flex-col items-center">
+          <div class="text-5xl mb-4">🐎</div>
+          <h3 class="text-2xl font-bold mb-2">Mustang Quest</h3>
+          <p class="mb-4 text-gray-600">Gallop into adventure with wild mustangs and golden rewards.</p>
+          <button onclick="openIframeGame('https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20mustanggld2&lang=en&cur=FUN')" class="bg-accent text-primary font-bold py-2 px-6 rounded-full shadow hover:bg-yellow-400 transition">Play Now</button>
+        </div>
+
+        <!-- Game 3: Shamrock Tower -->
+        <div class="bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl shadow-lg p-8 flex flex-col items-center">
+          <div class="text-5xl mb-4">🍀</div>
+          <h3 class="text-2xl font-bold mb-2">Shamrock Tower</h3>
+          <p class="mb-4 text-gray-600">Climb the tower and see what luck brings you today!</p>
+          <button onclick="openIframeGame('https://games.spinomenal.com/Play/Fun?gameCode=Tower_1ReelShamrock-CW&gameToken=FUN_636959271879492949&platform=1&partnerId=SPIN-DEBUG&logo=SPIN&currencyCode=FUN&langCode=en')" class="bg-accent text-primary font-bold py-2 px-6 rounded-full shadow hover:bg-yellow-400 transition">Play Now</button>
+        </div>
+      </div>
+    </div>
+    <!-- Modal for iframe games -->
+    <div id="iframeModal" class="fixed inset-0 bg-black bg-opacity-60 z-50 flex items-center justify-center hidden">
+      <div class="bg-white rounded-xl max-w-2xl w-full p-4 md:p-8 mx-4 relative text-center">
+        <button onclick="closeIframeGame()" class="absolute top-4 right-4 text-gray-500 hover:text-gray-700 text-2xl">
+          <i class="fas fa-times"></i>
+        </button>
+        <!-- Fun-only notice -->
+        <div class="mb-4 p-3 rounded bg-yellow-100 text-yellow-900 font-semibold border border-yellow-300 text-base">
+          This game is for fun only. There are no real wins or prizes.
+        </div>
+        <iframe id="gameIframe" src="" width="100%" height="500" class="rounded-lg border-2 border-primary" allowfullscreen></iframe>
+      </div>
+    </div>
+    <script>
+      // Iframe Game Logic
+      function openIframeGame(url) {
+        document.getElementById('iframeModal').classList.remove('hidden');
+        document.getElementById('gameIframe').src = url;
+      }
+      function closeIframeGame() {
+        document.getElementById('iframeModal').classList.add('hidden');
+        document.getElementById('gameIframe').src = '';
+      }
+    </script>
+  </section>
+
+  <!-- Disclaimer Section -->
+  <section id="disclaimer" class="py-16 bg-primary text-white">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6">Disclaimer</h2>
+        <div class="disclaimer-box">
+          VividPlay is a free-to-play social experience created solely for entertainment. No real risk is involved.<br><br>
+          We believe gameplay should always be fun and pressure-free. If at any point it stops being enjoyable, we encourage you to take a break.<br><br>
+          If you're concerned about your relationship with real casino-related content, support is available. In the UK, you can contact the National Gambling Helpline on 0808 8020 133 or visit <a href="https://www.begambleaware.org/" class="underline text-accent" target="_blank">BeGambleAware.org</a> for confidential help and advice.<br><br>
+          This service does not offer any real casino functionality under UK law. All gameplay is virtual and non-monetary.<br><br>
+          VividPlay is intended for entertainment by users aged 18 and older.
+        </div>
+        <p class="mt-8 text-white opacity-80">
+          VividPlay is not a gambling operator and does not offer real money prizes. For entertainment only.
+        </p>
+        <div class="flex flex-wrap gap-6 justify-center mt-8">
+          <a href="https://www.gamstop.co.uk/" target="_blank">
+            <img class="max-w-[120px] object-contain w-full" src="./logo.svg" alt="GamStop">
+          </a>
+          <a href="https://www.gamblingcommission.gov.uk/" target="_blank">
+            <img class="max-w-[120px] object-contain w-full" src="./Gambling_Commission_logo.png" alt="Gambling Commission">
+          </a>
+          <a href="https://www.begambleaware.org/" target="_blank">
+            <img class="max-w-[120px] object-contain w-full" src="./logo-orange.webp" alt="BeGambleAware">
+          </a>
+          <a href="https://www.gamcare.org.uk/" target="_blank">
+            <img class="max-w-[120px] object-contain w-full" src="./logo_c5e56a7f.svg" alt="GamCare">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 bg-secondary text-white">
+    <div class="container mx-auto px-4 text-center">
+      <div class="mb-4">
+        <span class="font-bold">VividPlay</span> &copy; 2025. All Rights Reserved.
+      </div>
+      <div class="text-sm opacity-80">
+        VividPlay is not a gambling operator and does not offer real money prizes. For entertainment only.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
